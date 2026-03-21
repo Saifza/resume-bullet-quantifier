@@ -1,4 +1,0 @@
-streamlit
-spacy
-openai
-python-dotenv
