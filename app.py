@@ -205,15 +205,15 @@ if analyze_button:
     st.markdown("---")
     st.subheader("Download Improved Resume")
 
-    pdf_file = create_resume_pdf(improved_bullets)
+   # pdf_file = create_resume_pdf(improved_bullets)
 
-    with open(pdf_file, "rb") as file:
-        st.download_button(
-            label="Download Improved Resume",
-            data=file,
-            file_name="improved_resume.pdf",
-            mime="application/pdf"
-        )
+   # with open(pdf_file, "rb") as file:
+   #     st.download_button(
+   #         label="Download Improved Resume",
+   #         data=file,
+   #         file_name="improved_resume.pdf",
+   #         mime="application/pdf"
+   #     )
 
 # -------------------------
 # SIDEBAR
