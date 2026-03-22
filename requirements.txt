@@ -1,5 +1,5 @@
 streamlit==1.32.0
 python-dotenv==1.0.1
-google-genai==0.3.0
-PyPDF2==3.0.1
-reportlab==4.0.9
+google-genai
+PyPDF2
+reportlab
